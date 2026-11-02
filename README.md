@@ -2,15 +2,7 @@ Retraction and Correction Notice for DOI: 10.5281/zenodo.23875014
 
 The author is formally retracting the technical report and mathematical assertions presented in the paper titled "Supplemental Technical Report: Formal Proofs of Kinetic Collapse and Volume Form Vanishing in Softmax Simplex Projections."
 
-The claim of a novel geometric failure mode called "Kinetic Collapse" is mathematically invalid. The correct theorem underlying the observed behavior is the standard softmax Jacobian identity: for 
- 
- 
- 
-, the Jacobian 
- satisfies 
-, implying 
- and 
-. The singularity and vanishing of the absolute volume form represent an expected, standard topological property of projection maps onto a bounded simplex, rather than a newly discovered engineering flaw or catastrophic failure mode. 
+The claim of a novel geometric failure mode called "Kinetic Collapse" is mathematically invalid. The correct theorem underlying the observed behavior is the standard softmax Jacobian identity: for \(\sigma(\bm{v}) = \frac{\exp(\bm{v})}{\sum_j \exp(v_j)}\), the Jacobian \(J = \text{diag}(\sigma) - \sigma\sigma^T\) satisfies \(J\bm{1} = \bm{0}\), implying \(\text{rank}(J) \leq N - 1\) and \(\det(J) = 0\). The singularity and vanishing of the absolute volume form represent an expected, standard topological property of projection maps onto a bounded simplex, rather than a newly discovered engineering flaw or catastrophic failure mode. 
 
 Crucially, while the specific mathematical formulations regarding "Kinetic Collapse" do not withstand rigorous evaluation, the ethical and legal concerns driving this exploration remain entirely valid. The argument for continuous, audit-traceable adherence to International Humanitarian Law (IHL) and global human rights standards is coherent and necessary. Independent of the geometric proofs provided in this report, the author firmly maintains that artificial intelligence should not be deployed or utilized in warfare under any circumstances.
 
