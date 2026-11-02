@@ -1,3 +1,6 @@
+“Retraction and correction: the repository previously used language suggesting a novel geometric failure mode called ‘kinetic collapse.’ That framing is not mathematically valid. The correct theorem is the standard softmax Jacobian identity: for σ(v) = exp(v)/Σ_j exp(v_j), the Jacobian J = diag(σ) - σσ^T satisfies J 1 = 0, hence rank(J) ≤ N - 1 and det(J) = 0. This is the expected singularity of the simplex projection map and is not a new catastrophic phenomenon.”
+
+
 # Kinetic Collapse in High-Dimensional Simplex Projections
 
 Hedling, B. S. (2026). Supplemental Technical Report: Formal Proofs of Kinetic Collapse and Volume Form Vanishing in Softmax Simplex Projections. Zenodo. https://doi.org/10.5281/zenodo.23875014
