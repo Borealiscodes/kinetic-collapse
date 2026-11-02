@@ -1,5 +1,6 @@
 # Kinetic Collapse in High-Dimensional Simplex Projections
 
+Hedling, B. S. (2026). Supplemental Technical Report: Formal Proofs of Kinetic Collapse and Volume Form Vanishing in Softmax Simplex Projections. Zenodo. https://doi.org/10.5281/zenodo.23875014
 
 This repository houses the formal mathematical verification engine, computational simulation suites, and type-theoretic proofs for Kinetic Collapse—a structural geometric vulnerability in high-dimensional autonomous verification substrates utilizing soft-argmax projections.
 The accompanying preprint demonstrates that mapping an 80-dimensional continuous Riemannian manifold (\(\mathcal{M} \subset \mathbb{R}^{80}\)) onto a bounded probability simplex results in an absolute volume form vanishing (\(\omega_\sigma = 0\)) due to an everywhere-singular Jacobian matrix (\(J\)). Under operational stress, this lack of continuous geometric regularization forces internal context vectors to snap violently to the extreme vertices of the simplex (\(\lim \sigma(\bm{v}) \to \bm{e}_k\)), causing catastrophic context erasure and violating the strict evaluation requirements of International Humanitarian Law (IHL) and the UN Charter.
