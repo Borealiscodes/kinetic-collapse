@@ -14,7 +14,7 @@ text
   
 kinetic-collapse/
 ├── README.md                      # Project manifest and core mathematical brief
-├── LICENSE                        # Creative Commons Attribution 4.0 International
+├── LICENSE                        # Open Source Humanitarian License 
 ├── proofs/                        # Formal Verification Enclave
 │   └── Lean/
 │       ├── ManifoldSetup.lean     # Definitions for 80-D Riemannian Context Space
