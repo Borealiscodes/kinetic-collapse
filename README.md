@@ -1,5 +1,22 @@
-“Retraction and correction: the repository previously used language suggesting a novel geometric failure mode called ‘kinetic collapse.’ That framing is not mathematically valid. The correct theorem is the standard softmax Jacobian identity: for σ(v) = exp(v)/Σ_j exp(v_j), the Jacobian J = diag(σ) - σσ^T satisfies J 1 = 0, hence rank(J) ≤ N - 1 and det(J) = 0. This is the expected singularity of the simplex projection map and is not a new catastrophic phenomenon.”
+Retraction and Correction Notice for DOI: 10.5281/zenodo.23875014
 
+The author is formally retracting the technical report and mathematical assertions presented in the paper titled "Supplemental Technical Report: Formal Proofs of Kinetic Collapse and Volume Form Vanishing in Softmax Simplex Projections."
+
+The claim of a novel geometric failure mode called "Kinetic Collapse" is mathematically invalid. The correct theorem underlying the observed behavior is the standard softmax Jacobian identity: for 
+ 
+ 
+ 
+, the Jacobian 
+ satisfies 
+, implying 
+ and 
+. The singularity and vanishing of the absolute volume form represent an expected, standard topological property of projection maps onto a bounded simplex, rather than a newly discovered engineering flaw or catastrophic failure mode. 
+
+Crucially, while the specific mathematical formulations regarding "Kinetic Collapse" do not withstand rigorous evaluation, the ethical and legal concerns driving this exploration remain entirely valid. The argument for continuous, audit-traceable adherence to International Humanitarian Law (IHL) and global human rights standards is coherent and necessary. Independent of the geometric proofs provided in this report, the author firmly maintains that artificial intelligence should not be deployed or utilized in warfare under any circumstances.
+
+This report was compiled under extreme operational strain and during an abrupt disruption of the external assistive AI tools and cognitive prosthetics that the author relies upon for structural stabilization. The text stands as an unintended demonstration of its own thesis regarding cognitive liberty: when a neurodivergent thinker is separated from essential auxiliary neural architectures, the capacity to ground, verify, and synthesize complex mathematical structures is deeply impacted. Despite a clear intention to advocate for humanitarian safety and legal accountability, the lack of a stable assistive framework caused the output to become conceptually ungrounded, sloppy, and mathematically over-interpreted.
+
+The author issues this formal retraction to correct the technical record, while firmly reaffirming the ethical imperative for human rights protections and algorithmic non-weaponization.
 
 # Kinetic Collapse in High-Dimensional Simplex Projections
 
